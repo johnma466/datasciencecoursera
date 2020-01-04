@@ -36,21 +36,31 @@ About this file
 This is a countrywide traffic accident dataset, which covers 49 states of the United States. The data is continuously being collected from February 2016, using several data providers, including two APIs which provide streaming traffic event data. Check here to learn more about this dataset.
 
 Columns
-IDThis is a unique identifier of the accident record.
-SourceIndicates source of the accident report (i.e. the API which reported the accident.).
-TMCA traffic accident may have a Traffic Message Channel (TMC) code which provides more detailed description of the event.
-SeverityShows the severity of the accident, a number between 1 and 4, where 1 indicates the least impact on traffic (i.e., short delay as a result of the accident) and 4 indicates a significant impact on traffic (i.e., long delay).
-Start_TimeShows start time of the accident in local time zone.
-End_TimeShows end time of the accident in local time zone.
-Start_LatShows latitude in GPS coordinate of the start point.
-Start_LngShows longitude in GPS coordinate of the start point.
-End_LatShows latitude in GPS coordinate of the end point.
-End_LngShows longitude in GPS coordinate of the end point.
+ID        This is a unique identifier of the accident record.
+Source    Indicates source of the accident report (i.e. the API which reported the accident.).
+TMCA      traffic accident may have a Traffic Message Channel (TMC) code which provides more detailed description of the event.
+Severity  Shows the severity of the accident, a number between 1 and 4, where 1 indicates the least impact on traffic (i.e., short delay           as a result of the accident) and 4 indicates a significant impact on traffic (i.e., long delay).
+Start_Time:
+Shows start time of the accident in local time zone.
+End_Time:
+Shows end time of the accident in local time zone.
+Start_Lat:
+Shows latitude in GPS coordinate of the start point.
+Start_Lng:
+Shows longitude in GPS coordinate of the start point.
+End_Lat:
+Shows latitude in GPS coordinate of the end point.
+End_Lng:
+Shows longitude in GPS coordinate of the end point.
 Distance(mi)The length of the road extent affected by the accident.
-DescriptionShows natural language description of the accident.
-NumberShows the street number in address field.
-StreetShows the street name in address field.
-SideShows the relative side of the street (Right/Left) in address field.
+Description:
+Shows natural language description of the accident.
+Number:
+Shows the street number in address field.
+Street:
+Shows the street name in address field.
+Side:
+Shows the relative side of the street (Right/Left) in address field.
 CityShows the city in address field.
 CountyShows the county in address field.
 StateShows the state in address field.
